@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Python compiled files
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Project-generated files
+.venv312/
+fingerprints.csv
+molecules.smi
+
+
