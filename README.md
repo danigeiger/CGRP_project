@@ -24,7 +24,7 @@ The data was split into training and testing sets using an 80/20 split. Feature 
 
 Multiple tree-based models were evaluated and produced similar RMSE and R² values. A random forest regressor was selected for the final model due to its increased stochasticity, which helps mitigate overfitting. Target values were continuous and represented as negative log molarity (pIC50).
 
-For additional details on feature selection and hyperparameter tuning, see CGRP_model_hypertuning.ipynb in the models/ directory.
+For additional details on feature selection and hyperparameter tuning, see CGRP_model_hypertuning.ipynb in the notebooks/ directory.
 
 ## Intended Use
 
@@ -42,7 +42,7 @@ This application is intended for research and exploratory analysis purposes only
 3. Run the Streamlit app:
    streamlit run app.py
 
-4. Upload a CSV or TXT file containing molecular SMILES strings (and optional ChEMBL IDs), or test the app using the sample input files located in the `sample_data/` directory.
+4. Upload a CSV or TXT file with two columns (ChEMBL ID and SMILES), or test the app using the sample input files located in the `sample_data/` directory.
 
 
 
