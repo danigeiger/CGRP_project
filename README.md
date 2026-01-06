@@ -47,6 +47,7 @@ This application is intended for research and exploratory analysis purposes only
 
 
 ## Directory Layout
+```
 .
 ├── app.py                  # Streamlit application
 ├── models/
@@ -62,7 +63,7 @@ This application is intended for research and exploratory analysis purposes only
 ├── runtime.txt
 ├── LICENSE                      # MIT License
 └── README.md
-
+```
 
 ## License
 
