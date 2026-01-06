@@ -33,14 +33,14 @@ This application is intended for research and exploratory analysis purposes only
 ## Quick Start
 
 1. Clone the repository:
-   git clone https://github.com/your-username/CGRP_gepant_ML_project.git
-   cd CGRP_gepant_ML_project
+   git clone https://github.com/danigeiger/CGRP_project.git
+   cd CGRP_project
 
 2. Install dependencies:
    pip install -r requirements.txt
 
 3. Run the Streamlit app:
-   streamlit run CGRP_app.py
+   streamlit run app.py
 
 4. Upload a CSV or TXT file containing molecular SMILES strings (and optional ChEMBL IDs), or test the app using the sample input files located in the `sample_data/` directory.
 
