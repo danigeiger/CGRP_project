@@ -144,9 +144,9 @@ def predict_ic50(df_fps: pd.DataFrame):
 
 st.title("CGRP Receptor Antagonist IC50 Predictor")
 
-gif_path = static / "inhib_CGRP.gif"
-if gif_path.exists():
-    st.image(str(gif_path), use_container_width=True)
+video_path = static / "inhib_CGRP.mp4"
+if video_path.exists():
+    st.video(str(video_path))
 st.caption(
     "Figure 1. Molecular visualization of Olcegepant and Telcagepant binding "
     "the CGRP receptor, generated using PyMOL (v2.5.5, Schrödinger, LLC)."
