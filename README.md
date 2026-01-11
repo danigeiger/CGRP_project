@@ -1,5 +1,8 @@
 # CGRP Inhibitory Drug Discovery for the Treatment of Migraine
 
+![CGRP IC50 Predictor App](images/app_screenshot.png)
+*Screenshot of the Streamlit-based CGRP IC50 prediction interface.*
+
 ## Background
 
 ### About the CGRP Receptor
@@ -47,6 +50,8 @@ This application is intended for research and exploratory analysis purposes only
 ## Directory Layout
 ```
 .
+├── .streamlit/
+│   └── config.toml
 ├── app.py                  # Streamlit application
 ├── models/
 │   ├── rf_reg.joblib            # Trained Random Forest model
