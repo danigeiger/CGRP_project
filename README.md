@@ -74,16 +74,14 @@ This project is licensed under the MIT License.
 
 
 ## References
-Cheng, Y., & Prusoff, W. H. (1973). Relationship between the inhibition constant (Ki) and the concentration of inhibitor which causes 50 per cent inhibition (IC50) of an enzymatic reaction. Biochemical Pharmacology, 22(23), 3099–3108.
-Chen, H., Engkvist, O., Wang, Y., Olivecrona, M., & Blaschke, T. (2018). The rise of deep learning in drug discovery. Drug Discovery Today, 23(6), 1241–1250.
-Durham, P. L. (2006). Calcitonin gene-related peptide (CGRP) and migraine. Headache: The Journal of Head and Face Pain, 46(S1), S3–S8.
-Edvinsson, L. (2018). The CGRP pathway in migraine as a viable target for therapies. Headache: The Journal of Head and Face Pain, 58(S1), 33–47.
-Edvinsson, L., Haanes, K. A., Warfvinge, K., & Krause, D. N. (2018). CGRP as the target of new migraine therapies — successful translation from bench to clinic. Nature Reviews Neurology, 14(6), 338–350.
-Goadsby, P. J., Holland, P. R., Martins-Oliveira, M., Hoffmann, J., Schankin, C., & Akerman, S. (2017). Pathophysiology of migraine: A disorder of sensory processing. Physiological Reviews, 97(2), 553–622.
-Lavecchia, A. (2015). Machine-learning approaches in drug discovery: methods and applications. Drug Discovery Today, 20(3), 318–331.
-Sebaugh, J. L. (2011). Guidelines for accurate EC50/IC50 estimation. Pharmaceutical Statistics, 10(2), 128–134.
-Weininger, D. (1988). SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules. Journal of Chemical Information and Computer Sciences, 28(1), 31–36.
-The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods.
-Barbara Zdrazil, Eloy Felix, Fiona Hunter, Emma J Manners, James Blackshaw, Sybilla Corbett, Marleen de Veij, Harris Ioannidis, David Mendez Lopez, Juan F Mosquera, Maria Paula Magarinos, Nicolas Bosc, Ricardo Arcila, Tevik Kizilören, Anna Gaulton, A Patrícia Bento, Melissa. F Adasme, Pater Monecke, Gregory A Landrum, Andrew R Leach
-- Nucleic Acids Res. 2023: gkad1004. doi: 10.1093/nar/gkad1004
+- Cheng, Y., & Prusoff, W. H. (1973). Relationship between the inhibition constant (Ki) and the concentration of inhibitor which causes 50 per cent inhibition (IC50) of an enzymatic reaction. Biochemical Pharmacology, 22(23), 3099–3108.
+- Chen, H., Engkvist, O., Wang, Y., Olivecrona, M., & Blaschke, T. (2018). The rise of deep learning in drug discovery. Drug Discovery Today, 23(6), 1241–1250.
+- Durham, P. L. (2006). Calcitonin gene-related peptide (CGRP) and migraine. Headache: The Journal of Head and Face Pain, 46(S1), S3–S8.
+- Edvinsson, L. (2018). The CGRP pathway in migraine as a viable target for therapies. Headache: The Journal of Head and Face Pain, 58(S1), 33–47.
+- Edvinsson, L., Haanes, K. A., Warfvinge, K., & Krause, D. N. (2018). CGRP as the target of new migraine therapies — successful translation from bench to clinic. Nature Reviews Neurology, 14(6), 338–350.
+- Goadsby, P. J., Holland, P. R., Martins-Oliveira, M., Hoffmann, J., Schankin, C., & Akerman, S. (2017). Pathophysiology of migraine: A disorder of sensory processing. Physiological Reviews, 97(2), 553–622.
+- Lavecchia, A. (2015). Machine-learning approaches in drug discovery: methods and applications. Drug Discovery Today, 20(3), 318–331.
+- Sebaugh, J. L. (2011). Guidelines for accurate EC50/IC50 estimation. Pharmaceutical Statistics, 10(2), 128–134.
+- Weininger, D. (1988). SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules. Journal of Chemical Information and Computer Sciences, 28(1), 31–36.
+- The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods. Barbara Zdrazil, Eloy Felix, Fiona Hunter, Emma J Manners, James Blackshaw, Sybilla Corbett, Marleen de Veij, Harris Ioannidis, David Mendez Lopez, Juan F Mosquera, Maria Paula Magarinos, Nicolas Bosc, Ricardo Arcila, Tevik Kizilören, Anna Gaulton, A Patrícia Bento, Melissa. F Adasme, Pater Monecke, Gregory A Landrum, Andrew R Leach-Nucleic Acids Res. 2023: gkad1004. doi: 10.1093/nar/gkad1004
 
