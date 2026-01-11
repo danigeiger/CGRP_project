@@ -25,7 +25,7 @@ The IC50 measurements in this dataset were obtained in vitro; therefore, the mod
 Chemical structures were encoded using 880 binary fingerprint features representing the presence or absence of specific chemical substructures. The dataset was sourced from the ChEMBL database and consisted of 538 in vitro IC50 measurements related to CGRP receptor inhibition.
 The data were split into training and testing sets using an 80/20 split. Feature dimensionality was reduced using a variance threshold of $p(1−p)$, where $p=0.8$, resulting in 133 retained features. The final training set consisted of 430 samples.
 Multiple tree-based models were evaluated and produced similar RMSE and R² values. A random forest regressor was selected for the final model due to its increased stochasticity, which helps mitigate overfitting. Target values were continuous and represented as negative log molarity (pIC50).
-For additional details on feature selection and hyperparameter tuning, see CGRP_model_hypertuning.ipynb in the notebooks/directory.
+For additional details on feature selection and hyperparameter tuning, see [CGRP_model_hypertuning.ipynb](./notebooks/CGRP_model_hypertuning.ipynb) in the notebooks/ directory.
 
 ## Intended Use
 This application is intended for research and exploratory analysis purposes only. It is designed to support early-stage virtual screening of small molecules for potential CGRP receptor affinity based on predicted IC50 values. Model outputs should not be interpreted as clinical or therapeutic recommendations and must be validated through experimental and clinical testing.
