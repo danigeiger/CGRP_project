@@ -3,6 +3,9 @@
 ![CGRP IC50 Predictor App](images/app_screenshot.png)
 *Screenshot of the Streamlit-based CGRP IC50 prediction interface.*
 
+## Live Link to Streamlit App
+https://cgrp-ic50-predictor.streamlit.app 
+
 ## Background
 
 ### About the CGRP Receptor
