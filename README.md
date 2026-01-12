@@ -21,6 +21,29 @@ This Python application generates predicted IC50 values for the CGRP receptor ba
 This project aims to produce a model that predicts IC50 values based on molecular structures represented as canonical SMILES strings (Simplified Molecular Input Line Entry System), a standard single-line format for encoding chemical structures (Weininger, 1988). Ordinarily, IC50 values must be measured experimentally in the laboratory; however, this model predicts IC50 as a preliminary step prior to wet-lab testing. In this way, the model can serve as a computational sieve to prioritize the most promising candidate molecules.
 This in silico screening approach can significantly reduce the time, cost, and experimental burden of drug discovery by filtering large chemical libraries before expensive and time-consuming laboratory assays are performed (Lavecchia, 2015; Chen et al., 2018).
 
+## Model Performance Metrics
+
+Model performance was evaluated on a seperate test set using standard regression metrics. Since the target variable is continuous (pIC50), the focus is on how large the prediction errors are and how well the model explains the data, rather than on classification-style accuracy.
+
+Metrics included:
+
+* **Root Mean Squared Error (RMSE):** Measures the average size of the prediction error in pIC50 units.
+* **R² (Coefficient of Determination):** Measures how much of the variation in the experimental pIC50 values is explained by the model.
+
+For the **Random Forest Regressor**, hyperparameters were tuned in several stages using grid search. The first pass evaluated **576** combinations, the second pass evaluated **1,728** combinations, and the final refinement pass evaluated **240** combinations, for a total of **2,544** different model configurations tested.
+
+After this tuning process, the final model achieved the following performance on the test set:
+
+* **RMSE:** 0.445 pIC50 units
+* **R²:** 0.815
+
+These metrics are surprisingly strong given the stereochemistry and complexity of the drug–receptor interaction. The molecular fingerprints used as features in our model are small fragments. Each fragment represents only a local piece of a molecule, often just a few atoms at a time. While this captures which substructures are present, it does not describe the full molecule as a connected, three-dimensional object, nor does it fully encode the overall shape or the spatial arrangement of those pieces. Because binding to the CGRP receptor depends on the complete 3D geometry of the molecule, some prediction error is expected even for a well-trained model.
+
+
+Full details of the tuning process and model comparisons can be found in:
+[notebooks/CGRP_model_hypertuning.ipynb](notebooks/CGRP_model_hypertuning.ipynb)
+
+
 ## Limitations of This Model
 The IC50 measurements in this dataset were obtained in vitro; therefore, the model cannot account for a drug’s bioavailability, which refers to its ability to reach the target site in vivo. As a result, this algorithm is best suited as an efficient screening tool for evaluating large batches of molecules for receptor affinity. Any drug candidates with sufficiently low predicted IC50 values would still require extensive clinical testing to evaluate bioavailability, toxicity, and potential side effects. This algorithm does not categorize predicted values into active and inactive compounds based on their IC50, however to get an idea of these values please see [CGRP_Analysis.ipynb](./notebooks/CGRP_Analysis.ipynb) in the notebooks/ directory.
 
